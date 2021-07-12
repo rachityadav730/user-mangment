@@ -5,7 +5,7 @@ const e_session =require("express-session");
 
 
 const app =express();
-const port =8000;
+const port = process.env.PORT|| 8000;
 
 app.use(express.static('public'))
 app.use('/static', express.static(path.join(__dirname, 'public')))
