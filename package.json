@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -13,6 +17,8 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-session": "^1.17.2",
+    "heroku": "^7.56.0",
+    "heroku-cli": "^7.0.9",
     "mongoose": "^5.13.0",
     "nodemon": "^2.0.9"
   }
